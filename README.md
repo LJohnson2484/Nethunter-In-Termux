@@ -1,9 +1,9 @@
 # Nethunter-In-Termux
 This is a script by which you can install Kali nethunter (Kali Linux) in your termux application without rooted phone 
 ### Steps For Installation
-1. Download script in **HOME** `curl -LO https://raw.githubusercontent.com/Hax4us/Nethunter-In-Termux/master/kalinethunter`
-2. Give execution permission `chmod +x kalinethunter`
-3. Run script `./kalinethunter`
+1. Download script in **HOME** `curl -LO https://raw.githubusercontent.com/Hax4us/Nethunter-In-Termux/master/kalinethunter.sh`
+2. Give execution permission `chmod +x kalinethunter.sh`
+3. Run script `./kalinethunter.sh`
 
 ### Usage 
 1. Use command `startkali` to start nethunter. Default user is __kali__ and default password is also __kali__.
@@ -17,7 +17,7 @@ This is a script by which you can install Kali nethunter (Kali Linux) in your te
 
 
 ### In Case Of SSL error: certificate verify failed
-Rerun script with extra parameter `--insecure` or copy paste this command `./kalinethunter --insecure`
+Rerun script with extra parameter `--insecure` or copy paste this command `./kalinethunter.sh --insecure`
 
 #### setup LXDE 
 Default __DESKTOP__ is _XFCE4_ but you can setup __LXDE__ also https://www.hax4us.com/2018/07/how-to-install-lxde-in-kali-nethunter.html?m=1
